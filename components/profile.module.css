@@ -1,0 +1,95 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 350px;
+    height: 80vh;
+    padding: 5px;
+    margin: 40px;
+    border: double 4px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), radial-gradient(90deg, #f00,purple);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.avatar{
+    padding: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.nome{
+    padding: 15px;
+    margin: 2px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 32px ;
+}
+.developer{
+    background-color: rgb(216, 209, 209);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 22px ;
+}
+.social{
+    
+    padding: 10px;
+    margin: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    font-size: 22px ;
+}
+
+.contacts{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    font-size: 22px ;
+}
+
+.break{
+    flex-basis: 100%;
+    width: 0;
+}
+
+.buttonBox{
+
+    padding: 1px;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 22px ; 
+}
+
+.button{
+
+    padding: 1px;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 16px ; 
+}
+
+
